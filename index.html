@@ -17,10 +17,6 @@
       padding: 20px;
       text-align: center;
     }
-    header img {
-      height: 50px;
-      vertical-align: middle;
-    }
     nav {
       display: flex;
       justify-content: center;
@@ -35,30 +31,19 @@
     }
     section {
       padding: 20px;
+      text-align: center;
     }
-    .category {
-      margin-bottom: 30px;
-    }
-    .item {
-      display: flex;
-      align-items: center;
-      margin-bottom: 15px;
-    }
-    .item img {
-      width: 80px;
-      height: 80px;
-      object-fit: cover;
-      margin-right: 15px;
-      border-radius: 8px;
+    section img {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 12px;
     }
     footer {
       background-color: #6a1b9a;
       color: white;
       text-align: center;
       padding: 15px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
+      margin-top: 40px;
     }
     .highlight {
       color: #ffeb3b;
@@ -68,58 +53,27 @@
 </head>
 <body>
   <header>
-    <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Royal Logo">
     <h1>Royal Restaurant</h1>
+    <p>Welcome to delicious taste!</p>
   </header>
 
   <nav>
-    <a href="#veg">Veg Items</a>
-    <a href="#nonveg">Non-Veg Items</a>
-    <a href="#icecream">Ice Creams</a>
+    <a href="veg.html">🥦 Veg Items</a>
+    <a href="nonveg.html">🍗 Non-Veg</a>
+    <a href="icecream.html">🍨 Ice Creams</a>
+    <a href="tiffins.html">🍽️ Tiffins</a>
   </nav>
 
   <section>
-    <div class="category" id="veg">
-      <h2>🥦 Veg Items</h2>
-      <div class="item">
-        <img src="https://source.unsplash.com/80x80/?paneer" alt="Paneer">
-        <p>Paneer Butter Masala - ₹150</p>
-      </div>
-      <div class="item">
-        <img src="https://source.unsplash.com/80x80/?veg-biryani" alt="Veg Biryani">
-        <p>Veg Biryani - ₹120</p>
-      </div>
-    </div>
-
-    <div class="category" id="nonveg">
-      <h2>🍗 Non-Veg Items</h2>
-      <div class="item">
-        <img src="https://source.unsplash.com/80x80/?chicken-curry" alt="Chicken Curry">
-        <p>Chicken Curry - ₹180</p>
-      </div>
-      <div class="item">
-        <img src="https://source.unsplash.com/80x80/?mutton-biryani" alt="Mutton Biryani">
-        <p>Mutton Biryani - ₹250</p>
-      </div>
-    </div>
-
-    <div class="category" id="icecream">
-      <h2>🍨 Ice Creams</h2>
-      <div class="item">
-        <img src="https://source.unsplash.com/80x80/?vanilla-icecream" alt="Vanilla Ice Cream">
-        <p>Vanilla Ice Cream - ₹60</p>
-      </div>
-      <div class="item">
-        <img src="https://source.unsplash.com/80x80/?chocolate-icecream" alt="Chocolate Ice Cream">
-        <p>Chocolate Ice Cream - ₹80</p>
-      </div>
-    </div>
+    <h2>Welcome to Royal Restaurant</h2>
+    <img src="https://source.unsplash.com/600x300/?restaurant,food" alt="Restaurant">
+    <p>Best place to enjoy Veg, Non-Veg, Ice Creams & Tiffins at Ravulapalem</p>
   </section>
 
   <footer>
     <p>📍 Location: <span class="highlight">Ravulapalem</span></p>
     <p>📞 Contact: <span class="highlight">9346978543</span></p>
-    <p>🌟 Designed by <strong>Vijay</strong> as a class project. Owner of Royal Restaurant.</p>
+    <p>🧑‍🍳 Owner: <strong>Vijay</strong> (Class Project)</p>
   </footer>
 </body>
 </html>
